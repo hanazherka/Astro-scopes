@@ -1,0 +1,94 @@
+body {
+    background-color: white
+    
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.horoscopes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.zoom {
+        padding: 10px;
+        transition: transform .2s; /*Animation*/
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+.zoom:hover {
+    transform: scale(1.1); /* (110% zoom) */
+}
+
+.col.zoom {
+   /* border: 2px solid red; */
+   display: flex;
+   justify-content: center;
+
+}
+
+.row1  {
+    color: black;
+}
+
+.col.zoom > a > img {
+    height: 160px;;
+    width: 160px;
+}
+
+
+.row1 a:hover {
+    background-color: pink;
+}
+
+nav {
+    font-family: Caladea;
+    font-size: larger;
+    text-decoration: none;
+ }
+
+
+
+
+@media (min-width: 992px) {
+
+    .container {
+        min-width: 700px;
+    }
+
+}
+
+.container {
+    width: 20vw;
+    margin:auto;
+}
+
+.horoscopes {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+
+}
+
+nav > .nav-tabs {
+    color: black;
+    text-decoration: none;
+}
+
